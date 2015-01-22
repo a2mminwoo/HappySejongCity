@@ -7,19 +7,80 @@
 //
 
 #import "AppDelegate.h"
+#import "ContentController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) IBOutlet ContentController *contentController;
 @end
 
 @implementation AppDelegate
 
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    NSString *nibTitle = @"PhoneContent";
+    [[NSBundle mainBundle] loadNibNamed:nibTitle owner:self options:nil];
+    [self.window makeKeyAndVisible];
+    
+    
     // Override point for customization after application launch.
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+    {
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:
+                                                                             (UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+        [[UIApplication sharedApplication] registerForRemoteNotifications];
+    }
+    else
+    {
+        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+         (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
+    }
     return YES;
 }
 
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet: [NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSLog(@"content---%@", token);
+}
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    NSLog(@"ERROR: %@", error);
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+#if !TARGET_IPHONE_SIMULATOR
+    
+    NSLog(@"Remote Notification: %@", [userInfo description]);
+    NSDictionary *apsInfo = [userInfo objectForKey:@"aps"];
+    
+    if (application.applicationState == UIApplicationStateActive) {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Did receive a Remote Notification", nil)
+                                                            message:[apsInfo objectForKey:@"alert"]
+                                                           delegate:self
+                                                  cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                                                  otherButtonTitles:nil];
+        [alertView show];
+    } else {
+        NSString *alert = [apsInfo objectForKey:@"alert"];
+        NSLog(@"Received Push Alert: %@", alert);
+        
+        NSString *badge = [apsInfo objectForKey:@"badge"];
+        NSLog(@"Received Push Badge: %@", badge);
+        
+        NSString *sound = [apsInfo objectForKey:@"sound"];
+        NSLog(@"Received Push Sound: %@", sound);
+        NSLog(@"userinfo: %@", userInfo);
+    }
+    application.applicationIconBadgeNumber = [[apsInfo objectForKey:@"badge"] integerValue];
+    
+#endif
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

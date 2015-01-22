@@ -10,11 +10,18 @@
 		78A3F9DF1A6757A0005CFD95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3F9DE1A6757A0005CFD95 /* main.m */; };
 		78A3F9E21A6757A0005CFD95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3F9E11A6757A0005CFD95 /* AppDelegate.m */; };
 		78A3F9E51A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78A3F9E31A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld */; };
-		78A3F9E81A6757A0005CFD95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3F9E71A6757A0005CFD95 /* ViewController.m */; };
 		78A3F9EB1A6757A0005CFD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A3F9E91A6757A0005CFD95 /* Main.storyboard */; };
-		78A3F9ED1A6757A0005CFD95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A3F9EC1A6757A0005CFD95 /* Images.xcassets */; };
 		78A3F9F01A6757A0005CFD95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A3F9EE1A6757A0005CFD95 /* LaunchScreen.xib */; };
 		78A3F9FC1A6757A0005CFD95 /* SejongCityGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3F9FB1A6757A0005CFD95 /* SejongCityGuideTests.m */; };
+		78D8DBBA1A708BCE00D4EC25 /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBB41A708BCE00D4EC25 /* content_iPhone.plist */; };
+		78D8DBBB1A708BCE00D4EC25 /* PhoneContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBB61A708BCE00D4EC25 /* PhoneContent.xib */; };
+		78D8DBBC1A708BCE00D4EC25 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBB81A708BCE00D4EC25 /* MyView.xib */; };
+		78D8DBC41A708C0200D4EC25 /* PhoneContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBBF1A708C0200D4EC25 /* PhoneContentController.m */; };
+		78D8DBC51A708C0200D4EC25 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBC11A708C0200D4EC25 /* RootViewController.m */; };
+		78D8DBC61A708C0200D4EC25 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBC31A708C0200D4EC25 /* MyViewController.m */; };
+		78D8DBC91A708DA200D4EC25 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBC71A708DA200D4EC25 /* MainWindow.xib */; };
+		78D8DBCC1A708DD300D4EC25 /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBCB1A708DD300D4EC25 /* ContentController.m */; };
+		78D8DBCE1A708F9600D4EC25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBCD1A708F9600D4EC25 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +41,24 @@
 		78A3F9E01A6757A0005CFD95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78A3F9E11A6757A0005CFD95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		78A3F9E41A6757A0005CFD95 /* SejongCityGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SejongCityGuide.xcdatamodel; sourceTree = "<group>"; };
-		78A3F9E61A6757A0005CFD95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78A3F9E71A6757A0005CFD95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78A3F9EA1A6757A0005CFD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		78A3F9EC1A6757A0005CFD95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78A3F9EF1A6757A0005CFD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		78A3F9F51A6757A0005CFD95 /* SejongCityGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SejongCityGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A3F9FA1A6757A0005CFD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A3F9FB1A6757A0005CFD95 /* SejongCityGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SejongCityGuideTests.m; sourceTree = "<group>"; };
+		78D8DBB51A708BCE00D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = ../../../Downloads/PageControl/en.lproj/content_iPhone.plist; sourceTree = "<group>"; };
+		78D8DBB71A708BCE00D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../../Downloads/PageControl/en.lproj/PhoneContent.xib; sourceTree = "<group>"; };
+		78D8DBB91A708BCE00D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../../Downloads/PageControl/en.lproj/MyView.xib; sourceTree = "<group>"; };
+		78D8DBBE1A708C0200D4EC25 /* PhoneContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneContentController.h; path = ../../../Downloads/PageControl/Classes/iPhone/PhoneContentController.h; sourceTree = "<group>"; };
+		78D8DBBF1A708C0200D4EC25 /* PhoneContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneContentController.m; path = ../../../Downloads/PageControl/Classes/iPhone/PhoneContentController.m; sourceTree = "<group>"; };
+		78D8DBC01A708C0200D4EC25 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../../../Downloads/PageControl/Classes/iPhone/RootViewController.h; sourceTree = "<group>"; };
+		78D8DBC11A708C0200D4EC25 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../../../Downloads/PageControl/Classes/iPhone/RootViewController.m; sourceTree = "<group>"; };
+		78D8DBC21A708C0200D4EC25 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../../../Downloads/PageControl/Classes/iPhone/MyViewController.h; sourceTree = "<group>"; };
+		78D8DBC31A708C0200D4EC25 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../../../Downloads/PageControl/Classes/iPhone/MyViewController.m; sourceTree = "<group>"; };
+		78D8DBC81A708DA200D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../../Downloads/PageControl/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		78D8DBCA1A708DD300D4EC25 /* ContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentController.h; path = ../../../Downloads/PageControl/Classes/ContentController.h; sourceTree = "<group>"; };
+		78D8DBCB1A708DD300D4EC25 /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentController.m; path = ../../../Downloads/PageControl/Classes/ContentController.m; sourceTree = "<group>"; };
+		78D8DBCD1A708F9600D4EC25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../Downloads/PageControl/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				78A3F9DB1A6757A0005CFD95 /* SejongCityGuide */,
+				78D8DBB31A708B8100D4EC25 /* Resource */,
 				78A3F9F81A6757A0005CFD95 /* SejongCityGuideTests */,
 				78A3F9DA1A6757A0005CFD95 /* Products */,
 			);
@@ -83,12 +101,17 @@
 		78A3F9DB1A6757A0005CFD95 /* SejongCityGuide */ = {
 			isa = PBXGroup;
 			children = (
+				78D8DBBD1A708BF000D4EC25 /* Common */,
+				78D8DBD11A70972600D4EC25 /* TrafficInfo */,
+				78D8DBD21A70973900D4EC25 /* CommuteInfo */,
+				78D8DBD61A7097A000D4EC25 /* Utils */,
+				78D8DBD31A70974700D4EC25 /* OfficeInfo */,
+				78D8DBD41A70978400D4EC25 /* LifeInfo */,
+				78D8DBD51A70979000D4EC25 /* NoticeInfo */,
+				78A3F9E91A6757A0005CFD95 /* Main.storyboard */,
 				78A3F9E01A6757A0005CFD95 /* AppDelegate.h */,
 				78A3F9E11A6757A0005CFD95 /* AppDelegate.m */,
-				78A3F9E61A6757A0005CFD95 /* ViewController.h */,
-				78A3F9E71A6757A0005CFD95 /* ViewController.m */,
-				78A3F9E91A6757A0005CFD95 /* Main.storyboard */,
-				78A3F9EC1A6757A0005CFD95 /* Images.xcassets */,
+				78D8DBCD1A708F9600D4EC25 /* Images.xcassets */,
 				78A3F9EE1A6757A0005CFD95 /* LaunchScreen.xib */,
 				78A3F9E31A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld */,
 				78A3F9DC1A6757A0005CFD95 /* Supporting Files */,
@@ -120,6 +143,75 @@
 				78A3F9FA1A6757A0005CFD95 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78D8DBB31A708B8100D4EC25 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				78D8DBB41A708BCE00D4EC25 /* content_iPhone.plist */,
+				78D8DBB61A708BCE00D4EC25 /* PhoneContent.xib */,
+				78D8DBB81A708BCE00D4EC25 /* MyView.xib */,
+				78D8DBC71A708DA200D4EC25 /* MainWindow.xib */,
+			);
+			name = Resource;
+			path = SejongCityGuide;
+			sourceTree = "<group>";
+		};
+		78D8DBBD1A708BF000D4EC25 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				78D8DBCA1A708DD300D4EC25 /* ContentController.h */,
+				78D8DBCB1A708DD300D4EC25 /* ContentController.m */,
+				78D8DBBE1A708C0200D4EC25 /* PhoneContentController.h */,
+				78D8DBBF1A708C0200D4EC25 /* PhoneContentController.m */,
+				78D8DBC01A708C0200D4EC25 /* RootViewController.h */,
+				78D8DBC11A708C0200D4EC25 /* RootViewController.m */,
+				78D8DBC21A708C0200D4EC25 /* MyViewController.h */,
+				78D8DBC31A708C0200D4EC25 /* MyViewController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		78D8DBD11A70972600D4EC25 /* TrafficInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TrafficInfo;
+			sourceTree = "<group>";
+		};
+		78D8DBD21A70973900D4EC25 /* CommuteInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CommuteInfo;
+			sourceTree = "<group>";
+		};
+		78D8DBD31A70974700D4EC25 /* OfficeInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OfficeInfo;
+			sourceTree = "<group>";
+		};
+		78D8DBD41A70978400D4EC25 /* LifeInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LifeInfo;
+			sourceTree = "<group>";
+		};
+		78D8DBD51A70979000D4EC25 /* NoticeInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NoticeInfo;
+			sourceTree = "<group>";
+		};
+		78D8DBD61A7097A000D4EC25 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +263,7 @@
 				TargetAttributes = {
 					78A3F9D81A6757A0005CFD95 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WXDPHNPDPE;
 					};
 					78A3F9F41A6757A0005CFD95 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -202,9 +295,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D8DBC91A708DA200D4EC25 /* MainWindow.xib in Resources */,
+				78D8DBCE1A708F9600D4EC25 /* Images.xcassets in Resources */,
+				78D8DBBC1A708BCE00D4EC25 /* MyView.xib in Resources */,
+				78D8DBBB1A708BCE00D4EC25 /* PhoneContent.xib in Resources */,
 				78A3F9EB1A6757A0005CFD95 /* Main.storyboard in Resources */,
 				78A3F9F01A6757A0005CFD95 /* LaunchScreen.xib in Resources */,
-				78A3F9ED1A6757A0005CFD95 /* Images.xcassets in Resources */,
+				78D8DBBA1A708BCE00D4EC25 /* content_iPhone.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +321,11 @@
 			files = (
 				78A3F9E51A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld in Sources */,
 				78A3F9E21A6757A0005CFD95 /* AppDelegate.m in Sources */,
-				78A3F9E81A6757A0005CFD95 /* ViewController.m in Sources */,
+				78D8DBC51A708C0200D4EC25 /* RootViewController.m in Sources */,
+				78D8DBC41A708C0200D4EC25 /* PhoneContentController.m in Sources */,
+				78D8DBCC1A708DD300D4EC25 /* ContentController.m in Sources */,
 				78A3F9DF1A6757A0005CFD95 /* main.m in Sources */,
+				78D8DBC61A708C0200D4EC25 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +362,38 @@
 				78A3F9EF1A6757A0005CFD95 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		78D8DBB41A708BCE00D4EC25 /* content_iPhone.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D8DBB51A708BCE00D4EC25 /* en */,
+			);
+			name = content_iPhone.plist;
+			sourceTree = "<group>";
+		};
+		78D8DBB61A708BCE00D4EC25 /* PhoneContent.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D8DBB71A708BCE00D4EC25 /* en */,
+			);
+			name = PhoneContent.xib;
+			sourceTree = "<group>";
+		};
+		78D8DBB81A708BCE00D4EC25 /* MyView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D8DBB91A708BCE00D4EC25 /* en */,
+			);
+			name = MyView.xib;
+			sourceTree = "<group>";
+		};
+		78D8DBC71A708DA200D4EC25 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D8DBC81A708DA200D4EC25 /* en */,
+			);
+			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,8 +479,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: minwoo lim (HPS5PEJA55)";
 				INFOPLIST_FILE = SejongCityGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +491,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: minwoo lim (HPS5PEJA55)";
 				INFOPLIST_FILE = SejongCityGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +552,7 @@
 				78A3FA011A6757A0005CFD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78A3FA021A6757A0005CFD95 /* Build configuration list for PBXNativeTarget "SejongCityGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +561,7 @@
 				78A3FA041A6757A0005CFD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,25 +1,171 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O1t-bV-AL0">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--mainTraffic-->
+        <scene sceneID="35C-EQ-Oo7">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController title="mainTraffic" id="O1t-bV-AL0" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="CUP-wz-7rx"/>
+                        <viewControllerLayoutGuide type="bottom" id="MZB-gf-nlO"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <view key="view" contentMode="scaleToFill" id="2zz-wC-VGu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="통근버스" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YTJ-0d-Q9R">
+                                <rect key="frame" x="0.0" y="37" width="414" height="51"/>
+                                <color key="backgroundColor" red="0.72970448369999996" green="0.72970448369999996" blue="0.72970448369999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FTk-Ir-JcC" appends="YES" id="uRD-N0-AZv"/>
+                            <outletCollection property="gestureRecognizers" destination="nyz-y2-c0g" appends="YES" id="JAH-Sr-wf3"/>
+                        </connections>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0i7-4R-Kxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="FTk-Ir-JcC">
+                    <connections>
+                        <segue destination="WcQ-lh-xiO" kind="presentation" animates="NO" id="Ifo-1O-lws"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="625" y="776"/>
+        </scene>
+        <!--mainCommute-->
+        <scene sceneID="aCQ-fa-OPy">
+            <objects>
+                <viewController title="mainCommute" id="WcQ-lh-xiO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xnk-lv-lyP"/>
+                        <viewControllerLayoutGuide type="bottom" id="dPq-SD-upb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c1V-mF-TVG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="통근버스" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Di4-LA-y2o">
+                                <rect key="frame" x="0.0" y="37" width="414" height="51"/>
+                                <color key="backgroundColor" red="0.72970448369999996" green="0.72970448369999996" blue="0.72970448369999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="nyz-y2-c0g" appends="YES" id="C63-Na-47P"/>
+                            <outletCollection property="gestureRecognizers" destination="nyz-y2-c0g" appends="YES" id="iJu-aO-HQy"/>
+                            <outletCollection property="gestureRecognizers" destination="cGh-AC-wrY" appends="YES" id="ZT2-18-zj6"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="qg9-e4-cqY"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hym-TC-8ED" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="nyz-y2-c0g">
+                    <connections>
+                        <segue destination="O1t-bV-AL0" kind="presentation" animates="NO" id="HwD-QH-r57"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="cGh-AC-wrY">
+                    <connections>
+                        <segue destination="2fp-bv-tqo" kind="presentation" animates="NO" id="vUX-hX-noW"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1088" y="776"/>
+        </scene>
+        <!--mainOfficeInfo-->
+        <scene sceneID="i4r-Cp-o9i">
+            <objects>
+                <viewController title="mainOfficeInfo" id="2fp-bv-tqo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eq6-ju-cPH"/>
+                        <viewControllerLayoutGuide type="bottom" id="stv-Rw-kdn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ghn-sl-dGL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="세종청사" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Bh-wC-14A">
+                                <rect key="frame" x="0.0" y="37" width="414" height="51"/>
+                                <color key="backgroundColor" red="0.72970448369999996" green="0.72970448369999996" blue="0.72970448369999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="LrN-qh-U0E" appends="YES" id="apI-5P-xBF"/>
+                            <outletCollection property="gestureRecognizers" destination="1Iv-Hf-mxE" appends="YES" id="Yl5-tn-b0N"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1Z-zu-N4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="LrN-qh-U0E">
+                    <connections>
+                        <segue destination="Qhp-1Q-ZLR" kind="presentation" animates="NO" id="hFd-f1-Kd2"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="1Iv-Hf-mxE">
+                    <connections>
+                        <segue destination="WcQ-lh-xiO" kind="presentation" animates="NO" id="S7U-fJ-B2E"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1568" y="776"/>
+        </scene>
+        <!--mainLifeInfo-->
+        <scene sceneID="3oa-KH-QR5">
+            <objects>
+                <viewController title="mainLifeInfo" id="Qhp-1Q-ZLR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cr8-Ml-mPI"/>
+                        <viewControllerLayoutGuide type="bottom" id="fHp-Vi-Obf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5ym-5J-ock">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="생활정보" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="72h-XY-NhL">
+                                <rect key="frame" x="0.0" y="37" width="414" height="51"/>
+                                <color key="backgroundColor" red="0.72970448369999996" green="0.72970448369999996" blue="0.72970448369999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WHB-PL-dPb" appends="YES" id="Za0-aW-fSU"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h44-gt-8Hq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="WHB-PL-dPb">
+                    <connections>
+                        <segue destination="2fp-bv-tqo" kind="presentation" animates="NO" id="JE8-dA-vhe"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2055" y="776"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ifo-1O-lws"/>
+        <segue reference="JE8-dA-vhe"/>
+    </inferredMetricsTieBreakers>
 </document>
