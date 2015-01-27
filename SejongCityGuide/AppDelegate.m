@@ -20,10 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    NSString *nibTitle = @"PhoneContent";
-    [[NSBundle mainBundle] loadNibNamed:nibTitle owner:self options:nil];
-    [self.window makeKeyAndVisible];
+    //_window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //NSString *nibTitle = @"PhoneContent";
+   // [[NSBundle mainBundle] loadNibNamed:nibTitle owner:self options:nil];
+  //  [self.window makeKeyAndVisible];
     
     
     // Override point for customization after application launch.

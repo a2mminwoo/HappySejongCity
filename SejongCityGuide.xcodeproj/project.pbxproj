@@ -13,15 +13,17 @@
 		78A3F9EB1A6757A0005CFD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A3F9E91A6757A0005CFD95 /* Main.storyboard */; };
 		78A3F9F01A6757A0005CFD95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A3F9EE1A6757A0005CFD95 /* LaunchScreen.xib */; };
 		78A3F9FC1A6757A0005CFD95 /* SejongCityGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3F9FB1A6757A0005CFD95 /* SejongCityGuideTests.m */; };
-		78D8DBBA1A708BCE00D4EC25 /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBB41A708BCE00D4EC25 /* content_iPhone.plist */; };
-		78D8DBBB1A708BCE00D4EC25 /* PhoneContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBB61A708BCE00D4EC25 /* PhoneContent.xib */; };
-		78D8DBBC1A708BCE00D4EC25 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBB81A708BCE00D4EC25 /* MyView.xib */; };
-		78D8DBC41A708C0200D4EC25 /* PhoneContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBBF1A708C0200D4EC25 /* PhoneContentController.m */; };
-		78D8DBC51A708C0200D4EC25 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBC11A708C0200D4EC25 /* RootViewController.m */; };
-		78D8DBC61A708C0200D4EC25 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBC31A708C0200D4EC25 /* MyViewController.m */; };
-		78D8DBC91A708DA200D4EC25 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBC71A708DA200D4EC25 /* MainWindow.xib */; };
-		78D8DBCC1A708DD300D4EC25 /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DBCB1A708DD300D4EC25 /* ContentController.m */; };
-		78D8DBCE1A708F9600D4EC25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DBCD1A708F9600D4EC25 /* Images.xcassets */; };
+		ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD53DE41A765357009CF8DC /* MyViewController.m */; };
+		ABD53DEA1A765357009CF8DC /* PhoneContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD53DE61A765357009CF8DC /* PhoneContentController.m */; };
+		ABD53DEB1A765357009CF8DC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD53DE81A765357009CF8DC /* RootViewController.m */; };
+		ABD53DEE1A7653F2009CF8DC /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD53DED1A7653F2009CF8DC /* ContentController.m */; };
+		ABD53DF11A76547A009CF8DC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DEF1A76547A009CF8DC /* MainWindow.xib */; };
+		ABD53DF21A76547A009CF8DC /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF01A76547A009CF8DC /* MyView.xib */; };
+		ABD53DF41A76548F009CF8DC /* PhoneContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF31A76548F009CF8DC /* PhoneContent.xib */; };
+		ABD53DF61A7654B0009CF8DC /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF51A7654B0009CF8DC /* content_iPhone.plist */; };
+		ABD53DF81A765687009CF8DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF71A765687009CF8DC /* Images.xcassets */; };
+		ABF5B1F51A76628D00935FD1 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5B1F41A76628D00935FD1 /* MainController.m */; };
+		ABF5B1F81A76947100935FD1 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5B1F71A76947100935FD1 /* PDFView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,19 +48,23 @@
 		78A3F9F51A6757A0005CFD95 /* SejongCityGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SejongCityGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A3F9FA1A6757A0005CFD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A3F9FB1A6757A0005CFD95 /* SejongCityGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SejongCityGuideTests.m; sourceTree = "<group>"; };
-		78D8DBB51A708BCE00D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = ../../../Downloads/PageControl/en.lproj/content_iPhone.plist; sourceTree = "<group>"; };
-		78D8DBB71A708BCE00D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../../Downloads/PageControl/en.lproj/PhoneContent.xib; sourceTree = "<group>"; };
-		78D8DBB91A708BCE00D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../../Downloads/PageControl/en.lproj/MyView.xib; sourceTree = "<group>"; };
-		78D8DBBE1A708C0200D4EC25 /* PhoneContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneContentController.h; path = ../../../Downloads/PageControl/Classes/iPhone/PhoneContentController.h; sourceTree = "<group>"; };
-		78D8DBBF1A708C0200D4EC25 /* PhoneContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneContentController.m; path = ../../../Downloads/PageControl/Classes/iPhone/PhoneContentController.m; sourceTree = "<group>"; };
-		78D8DBC01A708C0200D4EC25 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../../../Downloads/PageControl/Classes/iPhone/RootViewController.h; sourceTree = "<group>"; };
-		78D8DBC11A708C0200D4EC25 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../../../Downloads/PageControl/Classes/iPhone/RootViewController.m; sourceTree = "<group>"; };
-		78D8DBC21A708C0200D4EC25 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../../../Downloads/PageControl/Classes/iPhone/MyViewController.h; sourceTree = "<group>"; };
-		78D8DBC31A708C0200D4EC25 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../../../Downloads/PageControl/Classes/iPhone/MyViewController.m; sourceTree = "<group>"; };
-		78D8DBC81A708DA200D4EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../../Downloads/PageControl/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		78D8DBCA1A708DD300D4EC25 /* ContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentController.h; path = ../../../Downloads/PageControl/Classes/ContentController.h; sourceTree = "<group>"; };
-		78D8DBCB1A708DD300D4EC25 /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentController.m; path = ../../../Downloads/PageControl/Classes/ContentController.m; sourceTree = "<group>"; };
-		78D8DBCD1A708F9600D4EC25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../Downloads/PageControl/Images.xcassets; sourceTree = "<group>"; };
+		ABD53DE31A765357009CF8DC /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		ABD53DE41A765357009CF8DC /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		ABD53DE51A765357009CF8DC /* PhoneContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneContentController.h; sourceTree = "<group>"; };
+		ABD53DE61A765357009CF8DC /* PhoneContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneContentController.m; sourceTree = "<group>"; };
+		ABD53DE71A765357009CF8DC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ABD53DE81A765357009CF8DC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ABD53DEC1A7653DE009CF8DC /* ContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentController.h; sourceTree = "<group>"; };
+		ABD53DED1A7653F2009CF8DC /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentController.m; sourceTree = "<group>"; };
+		ABD53DEF1A76547A009CF8DC /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		ABD53DF01A76547A009CF8DC /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		ABD53DF31A76548F009CF8DC /* PhoneContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneContent.xib; sourceTree = "<group>"; };
+		ABD53DF51A7654B0009CF8DC /* content_iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = content_iPhone.plist; sourceTree = "<group>"; };
+		ABD53DF71A765687009CF8DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF5B1F31A76628D00935FD1 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		ABF5B1F41A76628D00935FD1 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		ABF5B1F61A76947100935FD1 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		ABF5B1F71A76947100935FD1 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +115,13 @@
 				78D8DBD41A70978400D4EC25 /* LifeInfo */,
 				78D8DBD51A70979000D4EC25 /* NoticeInfo */,
 				78A3F9E91A6757A0005CFD95 /* Main.storyboard */,
+				ABF5B1F61A76947100935FD1 /* PDFView.h */,
+				ABF5B1F71A76947100935FD1 /* PDFView.m */,
+				ABF5B1F31A76628D00935FD1 /* MainController.h */,
+				ABF5B1F41A76628D00935FD1 /* MainController.m */,
 				78A3F9E01A6757A0005CFD95 /* AppDelegate.h */,
 				78A3F9E11A6757A0005CFD95 /* AppDelegate.m */,
-				78D8DBCD1A708F9600D4EC25 /* Images.xcassets */,
+				ABD53DF71A765687009CF8DC /* Images.xcassets */,
 				78A3F9EE1A6757A0005CFD95 /* LaunchScreen.xib */,
 				78A3F9E31A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld */,
 				78A3F9DC1A6757A0005CFD95 /* Supporting Files */,
@@ -148,10 +158,10 @@
 		78D8DBB31A708B8100D4EC25 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				78D8DBB41A708BCE00D4EC25 /* content_iPhone.plist */,
-				78D8DBB61A708BCE00D4EC25 /* PhoneContent.xib */,
-				78D8DBB81A708BCE00D4EC25 /* MyView.xib */,
-				78D8DBC71A708DA200D4EC25 /* MainWindow.xib */,
+				ABD53DF51A7654B0009CF8DC /* content_iPhone.plist */,
+				ABD53DF31A76548F009CF8DC /* PhoneContent.xib */,
+				ABD53DEF1A76547A009CF8DC /* MainWindow.xib */,
+				ABD53DF01A76547A009CF8DC /* MyView.xib */,
 			);
 			name = Resource;
 			path = SejongCityGuide;
@@ -160,14 +170,14 @@
 		78D8DBBD1A708BF000D4EC25 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				78D8DBCA1A708DD300D4EC25 /* ContentController.h */,
-				78D8DBCB1A708DD300D4EC25 /* ContentController.m */,
-				78D8DBBE1A708C0200D4EC25 /* PhoneContentController.h */,
-				78D8DBBF1A708C0200D4EC25 /* PhoneContentController.m */,
-				78D8DBC01A708C0200D4EC25 /* RootViewController.h */,
-				78D8DBC11A708C0200D4EC25 /* RootViewController.m */,
-				78D8DBC21A708C0200D4EC25 /* MyViewController.h */,
-				78D8DBC31A708C0200D4EC25 /* MyViewController.m */,
+				ABD53DE31A765357009CF8DC /* MyViewController.h */,
+				ABD53DE41A765357009CF8DC /* MyViewController.m */,
+				ABD53DE51A765357009CF8DC /* PhoneContentController.h */,
+				ABD53DEC1A7653DE009CF8DC /* ContentController.h */,
+				ABD53DED1A7653F2009CF8DC /* ContentController.m */,
+				ABD53DE61A765357009CF8DC /* PhoneContentController.m */,
+				ABD53DE71A765357009CF8DC /* RootViewController.h */,
+				ABD53DE81A765357009CF8DC /* RootViewController.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -295,13 +305,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D8DBC91A708DA200D4EC25 /* MainWindow.xib in Resources */,
-				78D8DBCE1A708F9600D4EC25 /* Images.xcassets in Resources */,
-				78D8DBBC1A708BCE00D4EC25 /* MyView.xib in Resources */,
-				78D8DBBB1A708BCE00D4EC25 /* PhoneContent.xib in Resources */,
+				ABD53DF61A7654B0009CF8DC /* content_iPhone.plist in Resources */,
+				ABD53DF81A765687009CF8DC /* Images.xcassets in Resources */,
+				ABD53DF41A76548F009CF8DC /* PhoneContent.xib in Resources */,
+				ABD53DF11A76547A009CF8DC /* MainWindow.xib in Resources */,
 				78A3F9EB1A6757A0005CFD95 /* Main.storyboard in Resources */,
+				ABD53DF21A76547A009CF8DC /* MyView.xib in Resources */,
 				78A3F9F01A6757A0005CFD95 /* LaunchScreen.xib in Resources */,
-				78D8DBBA1A708BCE00D4EC25 /* content_iPhone.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,12 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A3F9E51A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld in Sources */,
+				ABF5B1F81A76947100935FD1 /* PDFView.m in Sources */,
+				ABD53DEE1A7653F2009CF8DC /* ContentController.m in Sources */,
 				78A3F9E21A6757A0005CFD95 /* AppDelegate.m in Sources */,
-				78D8DBC51A708C0200D4EC25 /* RootViewController.m in Sources */,
-				78D8DBC41A708C0200D4EC25 /* PhoneContentController.m in Sources */,
-				78D8DBCC1A708DD300D4EC25 /* ContentController.m in Sources */,
+				ABD53DEA1A765357009CF8DC /* PhoneContentController.m in Sources */,
+				ABF5B1F51A76628D00935FD1 /* MainController.m in Sources */,
+				ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */,
+				ABD53DEB1A765357009CF8DC /* RootViewController.m in Sources */,
 				78A3F9DF1A6757A0005CFD95 /* main.m in Sources */,
-				78D8DBC61A708C0200D4EC25 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,38 +374,6 @@
 				78A3F9EF1A6757A0005CFD95 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		78D8DBB41A708BCE00D4EC25 /* content_iPhone.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78D8DBB51A708BCE00D4EC25 /* en */,
-			);
-			name = content_iPhone.plist;
-			sourceTree = "<group>";
-		};
-		78D8DBB61A708BCE00D4EC25 /* PhoneContent.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78D8DBB71A708BCE00D4EC25 /* en */,
-			);
-			name = PhoneContent.xib;
-			sourceTree = "<group>";
-		};
-		78D8DBB81A708BCE00D4EC25 /* MyView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78D8DBB91A708BCE00D4EC25 /* en */,
-			);
-			name = MyView.xib;
-			sourceTree = "<group>";
-		};
-		78D8DBC71A708DA200D4EC25 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78D8DBC81A708DA200D4EC25 /* en */,
-			);
-			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -479,11 +459,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: minwoo lim (HPS5PEJA55)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SejongCityGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -491,11 +473,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: minwoo lim (HPS5PEJA55)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SejongCityGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

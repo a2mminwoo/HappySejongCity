@@ -11,6 +11,17 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+        @try
+        {
+            return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+            
+           
+        }@catch (NSException *exception)
+            {
+                // Print exception information
+                NSLog( @"NSException caught" );
+                NSLog( @"Name: %@", exception.name);
+                NSLog( @"Reason: %@", exception.reason );
+                return 0;
+            }
+    }}
