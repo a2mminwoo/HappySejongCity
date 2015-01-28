@@ -6,5 +6,6 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *btn;
 
+- (IBAction)tapAction:(id)sender;
 
 @end

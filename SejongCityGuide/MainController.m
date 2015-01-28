@@ -10,19 +10,40 @@
 #import "PDFView.h"
 
 @implementation MainController
+
+
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-    [self pdfTouch:self.btn];
-    
+   // [self pdfTouch:self.btn];
 
+    [self.btn setUserInteractionEnabled:YES];
     
+    UITapGestureRecognizer *singleTap =  [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
+    
+    [singleTap setNumberOfTapsRequired:1];
+    
+    [self.btn addGestureRecognizer:singleTap];
+
 }
 
 - (IBAction)pdfTouch:(id)sender {
     NSLog(@"Hello. %@ ",@"1234124");
-   [self.btn setHidden:YES];
+   //[self.btn setHidden:YES];
    // [self.navigationController pushViewController:alarmView animated:YES];
 
+}
+
+- (IBAction)tapAction:(id)sender{
+       NSLog(@"Hello. %@ ",@"1234124");
+    
+  //  PDFView *viewController = [[PDFView alloc] init];
+ //  [self presentViewController:viewController animated:YES completion:nil];
+  
+    
+    NSString * storyboardName = @"Main";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+    UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"PdfView"];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 @end

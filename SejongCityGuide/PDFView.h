@@ -12,5 +12,6 @@
 
 @interface PDFView : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
