@@ -2,10 +2,15 @@
 
 @interface MainController : UIViewController
 
-- (IBAction)pdfTouch:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *trafficBtn01;
 
-@property (weak, nonatomic) IBOutlet UIImageView *btn;
+@property (weak, nonatomic) IBOutlet UIImageView *ivMainPdf01;
+@property (weak, nonatomic) IBOutlet UIImageView *ivMainPdf02;
+@property (weak, nonatomic) IBOutlet UIImageView *ivMainPdf03;
+@property (weak, nonatomic) IBOutlet UIImageView *ivMainPdf04;
+@property (weak, nonatomic) IBOutlet UIImageView *ivMainPdf05;
+@property (weak, nonatomic) IBOutlet UIImageView *ivMainSejong;
 
-- (IBAction)tapAction:(id)sender;
 
+- (void)setConnectIv;
 @end

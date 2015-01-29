@@ -7,41 +7,51 @@
 //
 
 #import "PDFView.h"
+#import "CommuteSejong.h"
+#import "MainController.h"
 
 @implementation PDFView
 
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-    [self loadRequestFromString:@"http://sejong.a2m.co.kr/pdf/cj_sj.pdf"];
-   self.navigationItem.title = @"A custom title";
-}
-
--(void)startPDF{
+    [self loadRequestFromString:[@"http://sejong.a2m.co.kr/pdf/"stringByAppendingString:self.pdfName]];
+      NSLog(@"Hello. %@ ",self.pdfName);
     
-//    CGRect screenRect = [[UIScreen mainScreen] bounds];
-//    CGFloat screenWidth = screenRect.size.width;
-//    CGFloat screenHeight = screenRect.size.height;
     
-    //UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 40, screenWidth, screenHeight)];
-//    
-//    NSURL *targetURL = [NSURL URLWithString:@"http://sejong.a2m.co.kr/pdf/cj_sj.pdf"];
-//    NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
-//    [self.webView loadRequest:request];
-//     NSLog(@"Hello. %@ ",@"ttttt");
-//    
+    UITapGestureRecognizer *singleTap =  [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(goBack:)];
     
-  //  [self.view addSubview:self.webView];
-   // [webView loadRequest:request];
-    
-   // UIWebView *webView = [[UIWebView alloc] initWithFrame:myframe]
-   // [self.view addSubview:ewebView];
+     [self.btnBack addGestureRecognizer:singleTap];
 }
 
 - (void)loadRequestFromString:(NSString*)urlString
 {
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    self.webView.scalesPageToFit = YES;
     [self.webView loadRequest:urlRequest];
+    
 }
+- (IBAction)goBack:(id)sender {
+
+        NSLog(@"back press.");
+    NSString * storyboardName = @"Main";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+    if(self.isSejongMenu == YES){
+    CommuteSejong *viewController = (CommuteSejong *)[storyboard instantiateViewControllerWithIdentifier:@"CommuteSejong"];
+    [self presentViewController:viewController animated:YES completion:nil];
+        self.isSejongMenu =NO;
+    }else{
+    PDFView *viewController = (PDFView *)[storyboard instantiateViewControllerWithIdentifier:@"mainCommute"];
+    [self presentViewController:viewController animated:YES completion:nil];
+    }
+    
+ 
+  
+    
+    
+  
+    
+}
+
 @end

@@ -13,5 +13,13 @@
 @interface PDFView : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *back;
+
+@property (strong, nonatomic) NSString *pdfName;
+@property (nonatomic) Boolean *isSejongMenu;
+
+- (IBAction)goBack:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *btnBack;
 
 @end
