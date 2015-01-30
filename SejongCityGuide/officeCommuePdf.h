@@ -11,5 +11,6 @@
 @interface officeCommuePdf : UIViewController
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UINavigationItem *menuTitle;
-
+@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSString *url;
 @end

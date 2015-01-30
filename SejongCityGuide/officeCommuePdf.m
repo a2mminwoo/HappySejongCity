@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self loadRequestFromString:@"http://sejong.a2m.co.kr/pdf/office_cycle.pdf"];
+    [self loadRequestFromString:self.url];
 
+    self.menuTitle.title = self.title;
     
     
 }

@@ -7,10 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "ContentController.h"
-
+#import "TmapTest.h"
 @interface AppDelegate ()
-@property (nonatomic, strong) IBOutlet ContentController *contentController;
+
 @end
 
 @implementation AppDelegate
@@ -38,6 +37,25 @@
         [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
          (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
     }
+    
+    // ******* t-ap설정부분 *********
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        
+    } else {
+        
+    }
+    
+    //TMapViewController* controller = [[[TMapViewController alloc]init] autorelease];
+    TmapTest * controller = [[TmapTest alloc]init];
+    
+    
+    //self.window.rootViewController = self.viewController;
+    self.window.rootViewController = controller;
+    
+    [self.window makeKeyAndVisible];
+  //**************
     return YES;
 }
 
