@@ -24,6 +24,7 @@
 		ABD53DF81A765687009CF8DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF71A765687009CF8DC /* Images.xcassets */; };
 		ABE7BD861A79C9CD00FCC56F /* CommuteSejong.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD851A79C9CD00FCC56F /* CommuteSejong.m */; };
 		ABE7BD891A7A20B300FCC56F /* taxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD881A7A20B300FCC56F /* taxiViewController.m */; };
+		ABE7BD8C1A7A5DA000FCC56F /* officeCommuePdf.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD8B1A7A5DA000FCC56F /* officeCommuePdf.m */; };
 		ABF5B1F51A76628D00935FD1 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5B1F41A76628D00935FD1 /* MainController.m */; };
 		ABF5B1F81A76947100935FD1 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5B1F71A76947100935FD1 /* PDFView.m */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,8 @@
 		ABE7BD851A79C9CD00FCC56F /* CommuteSejong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommuteSejong.m; sourceTree = "<group>"; };
 		ABE7BD871A7A20B300FCC56F /* taxiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taxiViewController.h; sourceTree = "<group>"; };
 		ABE7BD881A7A20B300FCC56F /* taxiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taxiViewController.m; sourceTree = "<group>"; };
+		ABE7BD8A1A7A5DA000FCC56F /* officeCommuePdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = officeCommuePdf.h; sourceTree = "<group>"; };
+		ABE7BD8B1A7A5DA000FCC56F /* officeCommuePdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = officeCommuePdf.m; sourceTree = "<group>"; };
 		ABF5B1F31A76628D00935FD1 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		ABF5B1F41A76628D00935FD1 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		ABF5B1F61A76947100935FD1 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 		78D8DBD31A70974700D4EC25 /* OfficeInfo */ = {
 			isa = PBXGroup;
 			children = (
+				ABE7BD8A1A7A5DA000FCC56F /* officeCommuePdf.h */,
+				ABE7BD8B1A7A5DA000FCC56F /* officeCommuePdf.m */,
 			);
 			name = OfficeInfo;
 			sourceTree = "<group>";
@@ -339,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE7BD8C1A7A5DA000FCC56F /* officeCommuePdf.m in Sources */,
 				ABE7BD861A79C9CD00FCC56F /* CommuteSejong.m in Sources */,
 				78A3F9E51A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld in Sources */,
 				ABF5B1F81A76947100935FD1 /* PDFView.m in Sources */,

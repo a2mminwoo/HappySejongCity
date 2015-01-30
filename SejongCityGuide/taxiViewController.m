@@ -22,16 +22,7 @@
     [self setBtnLayer:self.btnCall03];
     [self setBtnLayer:self.btnCall04];
     
-  
- //   self.textBoxView.layer.masksToBounds = YES;
- //   self.textBoxView.layer.borderWidth = 1;
- //   self.textBoxView.layer.borderColor = [UIColor blackColor].CGColor;
-    CGFloat borderWidth = 2.0f;
-    
-    self.textBoxView.layer.borderColor = [UIColor blackColor].CGColor;
-    self.textBoxView.layer.borderWidth = borderWidth;
-    
-    // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning {
