@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TmapTest.h"
+#import "TmapInfoLocation.h"
 @interface AppDelegate ()
 
 @end
@@ -39,22 +39,10 @@
     }
     
     // ******* t-ap설정부분 *********
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        
-    } else {
-        
-    }
-    
-    //TMapViewController* controller = [[[TMapViewController alloc]init] autorelease];
-    TmapTest * controller = [[TmapTest alloc]init];
-    
-    
-    //self.window.rootViewController = self.viewController;
-    self.window.rootViewController = controller;
-    
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    TmapTest * controller = [[TmapTest alloc]init];
+//    self.window.rootViewController = controller;
+//    [self.window makeKeyAndVisible];
   //**************
     return YES;
 }

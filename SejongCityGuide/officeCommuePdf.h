@@ -6,9 +6,9 @@
 //  Copyright (c) 2015년 A2M. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ECSlidingViewController.h"
 
-@interface officeCommuePdf : UIViewController
+@interface officeCommuePdf : ECSlidingViewController
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UINavigationItem *menuTitle;
 @property (strong, nonatomic) NSString *title;

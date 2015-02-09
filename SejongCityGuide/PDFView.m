@@ -8,7 +8,7 @@
 
 #import "PDFView.h"
 #import "CommuteSejong.h"
-#import "MainController.h"
+#import "TrafficMainController.h"
 
 @implementation PDFView
 

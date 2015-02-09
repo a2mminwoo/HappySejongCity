@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "TMapView.h"
-@interface TmapTest : UIViewController <TMapViewDelegate, TMapGpsManagerDelegate>
+@interface TmapInfoLocation : UIViewController <TMapViewDelegate, TMapGpsManagerDelegate>
 {
      TMapView*       _mapView;
 }
+@property (weak, nonatomic) IBOutlet UIView *viewTmap;
+@property (nonatomic) NSInteger locationFlag;
 @end
 
