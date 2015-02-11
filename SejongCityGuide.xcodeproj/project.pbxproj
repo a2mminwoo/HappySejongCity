@@ -29,6 +29,10 @@
 		AB7B1B801A888083009EA3F4 /* InitialCommute.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B7F1A888083009EA3F4 /* InitialCommute.m */; };
 		AB7B1B831A8880C1009EA3F4 /* InitialLifeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B821A8880C1009EA3F4 /* InitialLifeInfo.m */; };
 		AB7B1B861A8880D7009EA3F4 /* InitialOfficeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B851A8880D7009EA3F4 /* InitialOfficeInfo.m */; };
+		AB7B1B891A88D0C4009EA3F4 /* LocalBISRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B881A88D0C4009EA3F4 /* LocalBISRouteViewController.m */; };
+		AB7B1B8F1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B8E1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m */; };
+		AB7B1B931A89C2AC009EA3F4 /* RouteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B911A89C2AC009EA3F4 /* RouteListCell.m */; };
+		AB7B1B971A89E935009EA3F4 /* RouteStopListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B961A89E935009EA3F4 /* RouteStopListCell.m */; };
 		ABC1D7591A7B678A0043ADE6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC1D7581A7B678A0043ADE6 /* CoreTelephony.framework */; };
 		ABC1D75B1A7B67980043ADE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC1D75A1A7B67980043ADE6 /* CoreLocation.framework */; };
 		ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD53DE41A765357009CF8DC /* MyViewController.m */; };
@@ -111,6 +115,14 @@
 		AB7B1B821A8880C1009EA3F4 /* InitialLifeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialLifeInfo.m; sourceTree = "<group>"; };
 		AB7B1B841A8880D7009EA3F4 /* InitialOfficeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialOfficeInfo.h; sourceTree = "<group>"; };
 		AB7B1B851A8880D7009EA3F4 /* InitialOfficeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialOfficeInfo.m; sourceTree = "<group>"; };
+		AB7B1B871A88D0C4009EA3F4 /* LocalBISRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISRouteViewController.h; sourceTree = "<group>"; };
+		AB7B1B881A88D0C4009EA3F4 /* LocalBISRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISRouteViewController.m; sourceTree = "<group>"; };
+		AB7B1B8D1A88E141009EA3F4 /* LocalBISRouteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISRouteDetailViewController.h; sourceTree = "<group>"; };
+		AB7B1B8E1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISRouteDetailViewController.m; sourceTree = "<group>"; };
+		AB7B1B901A89C2AC009EA3F4 /* RouteListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteListCell.h; sourceTree = "<group>"; };
+		AB7B1B911A89C2AC009EA3F4 /* RouteListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteListCell.m; sourceTree = "<group>"; };
+		AB7B1B951A89E935009EA3F4 /* RouteStopListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteStopListCell.h; sourceTree = "<group>"; };
+		AB7B1B961A89E935009EA3F4 /* RouteStopListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteStopListCell.m; sourceTree = "<group>"; };
 		ABC1D7581A7B678A0043ADE6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		ABC1D75A1A7B67980043ADE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		ABD53DE31A765357009CF8DC /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
@@ -311,6 +323,10 @@
 				ABF5B1F41A76628D00935FD1 /* TrafficMainController.m */,
 				ABE7BD871A7A20B300FCC56F /* taxiViewController.h */,
 				ABE7BD881A7A20B300FCC56F /* taxiViewController.m */,
+				AB7B1B871A88D0C4009EA3F4 /* LocalBISRouteViewController.h */,
+				AB7B1B881A88D0C4009EA3F4 /* LocalBISRouteViewController.m */,
+				AB7B1B8D1A88E141009EA3F4 /* LocalBISRouteDetailViewController.h */,
+				AB7B1B8E1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m */,
 			);
 			name = TrafficInfo;
 			sourceTree = "<group>";
@@ -368,6 +384,10 @@
 			children = (
 				ABE7BE1F1A7B57A200FCC56F /* TmapInfoLocation.h */,
 				ABE7BE201A7B57A200FCC56F /* TmapInfoLocation.m */,
+				AB7B1B901A89C2AC009EA3F4 /* RouteListCell.h */,
+				AB7B1B911A89C2AC009EA3F4 /* RouteListCell.m */,
+				AB7B1B951A89E935009EA3F4 /* RouteStopListCell.h */,
+				AB7B1B961A89E935009EA3F4 /* RouteStopListCell.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -564,8 +584,10 @@
 				78A3F9E51A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld in Sources */,
 				AB692E211A874575003D28B7 /* InitialTraffic.m in Sources */,
 				ABF5B1F81A76947100935FD1 /* PDFView.m in Sources */,
+				AB7B1B971A89E935009EA3F4 /* RouteStopListCell.m in Sources */,
 				AB7B1B7D1A886C55009EA3F4 /* LifeInfoMainController.m in Sources */,
 				ABD53DEE1A7653F2009CF8DC /* ContentController.m in Sources */,
+				AB7B1B931A89C2AC009EA3F4 /* RouteListCell.m in Sources */,
 				78A3F9E21A6757A0005CFD95 /* AppDelegate.m in Sources */,
 				ABE7BE211A7B57A200FCC56F /* TmapInfoLocation.m in Sources */,
 				AB692E1E1A87444D003D28B7 /* ToDoViewController.m in Sources */,
@@ -574,8 +596,10 @@
 				ABE7BD891A7A20B300FCC56F /* taxiViewController.m in Sources */,
 				AB6268661A833AE30041BB5F /* infoLocation.m in Sources */,
 				AB7B1B801A888083009EA3F4 /* InitialCommute.m in Sources */,
+				AB7B1B8F1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m in Sources */,
 				AB692E171A871C9C003D28B7 /* ECSlidingViewController.m in Sources */,
 				ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */,
+				AB7B1B891A88D0C4009EA3F4 /* LocalBISRouteViewController.m in Sources */,
 				AB7B1B831A8880C1009EA3F4 /* InitialLifeInfo.m in Sources */,
 				ABD53DEB1A765357009CF8DC /* RootViewController.m in Sources */,
 				AB7B1B771A886C29009EA3F4 /* CommuteMainController.m in Sources */,

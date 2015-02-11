@@ -69,7 +69,7 @@
 - (IBAction)BackBtn:(id)sender {
     NSString * storyboardName = @"Main";
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
-    taxiViewController *viewController = (taxiViewController *)[storyboard instantiateViewControllerWithIdentifier:@"mainTraffic"];
+    taxiViewController *viewController = (taxiViewController *)[storyboard instantiateViewControllerWithIdentifier:@"initialTraffic"];
     [self presentViewController:viewController animated:YES completion:nil];
     
 

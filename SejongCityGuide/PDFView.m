@@ -34,7 +34,6 @@
 }
 - (IBAction)goBack:(id)sender {
 
-        NSLog(@"back press.");
     NSString * storyboardName = @"Main";
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
     if(self.isSejongMenu == YES){
@@ -42,7 +41,7 @@
     [self presentViewController:viewController animated:YES completion:nil];
         self.isSejongMenu =NO;
     }else{
-    PDFView *viewController = (PDFView *)[storyboard instantiateViewControllerWithIdentifier:@"mainCommute"];
+    PDFView *viewController = (PDFView *)[storyboard instantiateViewControllerWithIdentifier:@"initialCommute"];
     [self presentViewController:viewController animated:YES completion:nil];
     }
     
