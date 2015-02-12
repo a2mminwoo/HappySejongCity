@@ -33,6 +33,12 @@
 		AB7B1B8F1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B8E1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m */; };
 		AB7B1B931A89C2AC009EA3F4 /* RouteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B911A89C2AC009EA3F4 /* RouteListCell.m */; };
 		AB7B1B971A89E935009EA3F4 /* RouteStopListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7B1B961A89E935009EA3F4 /* RouteStopListCell.m */; };
+		AB92E1A51A8C280E00EDE6AD /* StopListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1A41A8C280E00EDE6AD /* StopListCell.m */; };
+		AB92E1A81A8C282400EDE6AD /* StopDetailListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1A71A8C282400EDE6AD /* StopDetailListCell.m */; };
+		AB92E1AB1A8C64B500EDE6AD /* LocalBISExploreStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1AA1A8C64B500EDE6AD /* LocalBISExploreStartViewController.m */; };
+		AB92E1AE1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1AD1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m */; };
+		AB92E1B11A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1B01A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m */; };
+		AB92E1B41A8C79E500EDE6AD /* ExploreDetailListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1B31A8C79E500EDE6AD /* ExploreDetailListCell.m */; };
 		ABC1D7591A7B678A0043ADE6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC1D7581A7B678A0043ADE6 /* CoreTelephony.framework */; };
 		ABC1D75B1A7B67980043ADE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC1D75A1A7B67980043ADE6 /* CoreLocation.framework */; };
 		ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD53DE41A765357009CF8DC /* MyViewController.m */; };
@@ -44,6 +50,8 @@
 		ABD53DF41A76548F009CF8DC /* PhoneContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF31A76548F009CF8DC /* PhoneContent.xib */; };
 		ABD53DF61A7654B0009CF8DC /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF51A7654B0009CF8DC /* content_iPhone.plist */; };
 		ABD53DF81A765687009CF8DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF71A765687009CF8DC /* Images.xcassets */; };
+		ABD918261A8B48AE00B7DA6B /* LocalBISStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD918251A8B48AE00B7DA6B /* LocalBISStopViewController.m */; };
+		ABD918291A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD918281A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m */; };
 		ABE7BD861A79C9CD00FCC56F /* CommuteSejong.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD851A79C9CD00FCC56F /* CommuteSejong.m */; };
 		ABE7BD891A7A20B300FCC56F /* taxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD881A7A20B300FCC56F /* taxiViewController.m */; };
 		ABE7BD8C1A7A5DA000FCC56F /* officeCommuePdf.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD8B1A7A5DA000FCC56F /* officeCommuePdf.m */; };
@@ -123,6 +131,18 @@
 		AB7B1B911A89C2AC009EA3F4 /* RouteListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteListCell.m; sourceTree = "<group>"; };
 		AB7B1B951A89E935009EA3F4 /* RouteStopListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteStopListCell.h; sourceTree = "<group>"; };
 		AB7B1B961A89E935009EA3F4 /* RouteStopListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteStopListCell.m; sourceTree = "<group>"; };
+		AB92E1A31A8C280E00EDE6AD /* StopListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopListCell.h; sourceTree = "<group>"; };
+		AB92E1A41A8C280E00EDE6AD /* StopListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopListCell.m; sourceTree = "<group>"; };
+		AB92E1A61A8C282400EDE6AD /* StopDetailListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopDetailListCell.h; sourceTree = "<group>"; };
+		AB92E1A71A8C282400EDE6AD /* StopDetailListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopDetailListCell.m; sourceTree = "<group>"; };
+		AB92E1A91A8C64B500EDE6AD /* LocalBISExploreStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISExploreStartViewController.h; sourceTree = "<group>"; };
+		AB92E1AA1A8C64B500EDE6AD /* LocalBISExploreStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISExploreStartViewController.m; sourceTree = "<group>"; };
+		AB92E1AC1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISExploreArriveViewController.h; sourceTree = "<group>"; };
+		AB92E1AD1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISExploreArriveViewController.m; sourceTree = "<group>"; };
+		AB92E1AF1A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISExploreDetailViewController.h; sourceTree = "<group>"; };
+		AB92E1B01A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISExploreDetailViewController.m; sourceTree = "<group>"; };
+		AB92E1B21A8C79E500EDE6AD /* ExploreDetailListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreDetailListCell.h; sourceTree = "<group>"; };
+		AB92E1B31A8C79E500EDE6AD /* ExploreDetailListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreDetailListCell.m; sourceTree = "<group>"; };
 		ABC1D7581A7B678A0043ADE6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		ABC1D75A1A7B67980043ADE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		ABD53DE31A765357009CF8DC /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
@@ -138,6 +158,10 @@
 		ABD53DF31A76548F009CF8DC /* PhoneContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneContent.xib; sourceTree = "<group>"; };
 		ABD53DF51A7654B0009CF8DC /* content_iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = content_iPhone.plist; sourceTree = "<group>"; };
 		ABD53DF71A765687009CF8DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABD918241A8B48AE00B7DA6B /* LocalBISStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISStopViewController.h; sourceTree = "<group>"; };
+		ABD918251A8B48AE00B7DA6B /* LocalBISStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISStopViewController.m; sourceTree = "<group>"; };
+		ABD918271A8B48DB00B7DA6B /* LocalBISStopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISStopDetailViewController.h; sourceTree = "<group>"; };
+		ABD918281A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISStopDetailViewController.m; sourceTree = "<group>"; };
 		ABE7BD841A79C9CD00FCC56F /* CommuteSejong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommuteSejong.h; sourceTree = "<group>"; };
 		ABE7BD851A79C9CD00FCC56F /* CommuteSejong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommuteSejong.m; sourceTree = "<group>"; };
 		ABE7BD871A7A20B300FCC56F /* taxiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taxiViewController.h; sourceTree = "<group>"; };
@@ -327,6 +351,16 @@
 				AB7B1B881A88D0C4009EA3F4 /* LocalBISRouteViewController.m */,
 				AB7B1B8D1A88E141009EA3F4 /* LocalBISRouteDetailViewController.h */,
 				AB7B1B8E1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m */,
+				ABD918241A8B48AE00B7DA6B /* LocalBISStopViewController.h */,
+				ABD918251A8B48AE00B7DA6B /* LocalBISStopViewController.m */,
+				ABD918271A8B48DB00B7DA6B /* LocalBISStopDetailViewController.h */,
+				ABD918281A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m */,
+				AB92E1A91A8C64B500EDE6AD /* LocalBISExploreStartViewController.h */,
+				AB92E1AA1A8C64B500EDE6AD /* LocalBISExploreStartViewController.m */,
+				AB92E1AC1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.h */,
+				AB92E1AD1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m */,
+				AB92E1AF1A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.h */,
+				AB92E1B01A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m */,
 			);
 			name = TrafficInfo;
 			sourceTree = "<group>";
@@ -388,6 +422,12 @@
 				AB7B1B911A89C2AC009EA3F4 /* RouteListCell.m */,
 				AB7B1B951A89E935009EA3F4 /* RouteStopListCell.h */,
 				AB7B1B961A89E935009EA3F4 /* RouteStopListCell.m */,
+				AB92E1A31A8C280E00EDE6AD /* StopListCell.h */,
+				AB92E1A41A8C280E00EDE6AD /* StopListCell.m */,
+				AB92E1A61A8C282400EDE6AD /* StopDetailListCell.h */,
+				AB92E1A71A8C282400EDE6AD /* StopDetailListCell.m */,
+				AB92E1B21A8C79E500EDE6AD /* ExploreDetailListCell.h */,
+				AB92E1B31A8C79E500EDE6AD /* ExploreDetailListCell.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -580,17 +620,22 @@
 				AB7B1B861A8880D7009EA3F4 /* InitialOfficeInfo.m in Sources */,
 				ABE7BD8C1A7A5DA000FCC56F /* officeCommuePdf.m in Sources */,
 				AB692E1B1A871EF1003D28B7 /* MenuViewController.m in Sources */,
+				ABD918291A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m in Sources */,
 				ABE7BD861A79C9CD00FCC56F /* CommuteSejong.m in Sources */,
 				78A3F9E51A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld in Sources */,
+				AB92E1B11A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m in Sources */,
 				AB692E211A874575003D28B7 /* InitialTraffic.m in Sources */,
 				ABF5B1F81A76947100935FD1 /* PDFView.m in Sources */,
 				AB7B1B971A89E935009EA3F4 /* RouteStopListCell.m in Sources */,
 				AB7B1B7D1A886C55009EA3F4 /* LifeInfoMainController.m in Sources */,
 				ABD53DEE1A7653F2009CF8DC /* ContentController.m in Sources */,
+				AB92E1A51A8C280E00EDE6AD /* StopListCell.m in Sources */,
 				AB7B1B931A89C2AC009EA3F4 /* RouteListCell.m in Sources */,
+				AB92E1B41A8C79E500EDE6AD /* ExploreDetailListCell.m in Sources */,
 				78A3F9E21A6757A0005CFD95 /* AppDelegate.m in Sources */,
 				ABE7BE211A7B57A200FCC56F /* TmapInfoLocation.m in Sources */,
 				AB692E1E1A87444D003D28B7 /* ToDoViewController.m in Sources */,
+				AB92E1AE1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m in Sources */,
 				ABD53DEA1A765357009CF8DC /* PhoneContentController.m in Sources */,
 				ABF5B1F51A76628D00935FD1 /* TrafficMainController.m in Sources */,
 				ABE7BD891A7A20B300FCC56F /* taxiViewController.m in Sources */,
@@ -598,7 +643,10 @@
 				AB7B1B801A888083009EA3F4 /* InitialCommute.m in Sources */,
 				AB7B1B8F1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m in Sources */,
 				AB692E171A871C9C003D28B7 /* ECSlidingViewController.m in Sources */,
+				AB92E1A81A8C282400EDE6AD /* StopDetailListCell.m in Sources */,
+				ABD918261A8B48AE00B7DA6B /* LocalBISStopViewController.m in Sources */,
 				ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */,
+				AB92E1AB1A8C64B500EDE6AD /* LocalBISExploreStartViewController.m in Sources */,
 				AB7B1B891A88D0C4009EA3F4 /* LocalBISRouteViewController.m in Sources */,
 				AB7B1B831A8880C1009EA3F4 /* InitialLifeInfo.m in Sources */,
 				ABD53DEB1A765357009CF8DC /* RootViewController.m in Sources */,
