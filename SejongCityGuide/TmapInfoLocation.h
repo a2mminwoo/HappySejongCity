@@ -14,5 +14,9 @@
 }
 @property (weak, nonatomic) IBOutlet UIView *viewTmap;
 @property (nonatomic) NSInteger locationFlag;
+@property (nonatomic) Boolean isLifeInfoList;
+@property (nonatomic) double lat;
+@property (weak, nonatomic) IBOutlet UINavigationItem *contentTitle;
+@property (nonatomic) double lon;
 @end
 

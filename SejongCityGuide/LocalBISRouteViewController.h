@@ -10,6 +10,8 @@
 
 @interface LocalBISRouteViewController : UITableViewController <NSXMLParserDelegate,UISearchBarDelegate, UISearchDisplayDelegate>
 
+- (IBAction)backAction:(id)sender;
+
 @property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 

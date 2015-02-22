@@ -11,7 +11,5 @@
 
 @implementation RouteListCell
 
-@synthesize routeName = _routeName;
-@synthesize routePath = _routePath;
 
 @end

@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)BackAction:(id)sender;
 
 @end

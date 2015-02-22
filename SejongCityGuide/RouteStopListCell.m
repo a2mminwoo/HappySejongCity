@@ -10,7 +10,6 @@
 
 
 @implementation RouteStopListCell
-@synthesize stopName = _stopName;
-@synthesize stopIMG = _stopIMG;
+
 
 @end

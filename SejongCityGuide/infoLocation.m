@@ -70,7 +70,7 @@
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
     TmapInfoLocation *viewController = (TmapInfoLocation *)[storyboard instantiateViewControllerWithIdentifier:@"TmapInfoLocation"];
     viewController.locationFlag = indexPath.row;
-    
+    viewController.isLifeInfoList = NO;
     [self presentViewController:viewController animated:YES completion:nil];
 
 }

@@ -13,6 +13,31 @@
 		78A3F9EB1A6757A0005CFD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A3F9E91A6757A0005CFD95 /* Main.storyboard */; };
 		78A3F9F01A6757A0005CFD95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A3F9EE1A6757A0005CFD95 /* LaunchScreen.xib */; };
 		78A3F9FC1A6757A0005CFD95 /* SejongCityGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3F9FB1A6757A0005CFD95 /* SejongCityGuideTests.m */; };
+		AB281AB91A8CD49D004E3125 /* noticeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AB81A8CD49D004E3125 /* noticeTableViewController.m */; };
+		AB281ABE1A8CD50B004E3125 /* noticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281ABC1A8CD50B004E3125 /* noticeCell.m */; };
+		AB281ABF1A8CD50B004E3125 /* noticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB281ABD1A8CD50B004E3125 /* noticeCell.xib */; };
+		AB281AC61A8CD532004E3125 /* lifeInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AC11A8CD532004E3125 /* lifeInfoCell.m */; };
+		AB281AC71A8CD532004E3125 /* lifeInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AC31A8CD532004E3125 /* lifeInfoTableViewController.m */; };
+		AB281AC81A8CD532004E3125 /* lifeCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AC51A8CD532004E3125 /* lifeCategoryController.m */; };
+		AB281AD11A8CD54A004E3125 /* conveniController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281ACA1A8CD54A004E3125 /* conveniController.m */; };
+		AB281AD21A8CD54A004E3125 /* conveniTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281ACC1A8CD54A004E3125 /* conveniTableViewController.m */; };
+		AB281AD31A8CD54A004E3125 /* conveniTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281ACE1A8CD54A004E3125 /* conveniTableViewCell.m */; };
+		AB281AD41A8CD54A004E3125 /* conveniDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AD01A8CD54A004E3125 /* conveniDetailViewController.m */; };
+		AB281AE11A8CD565004E3125 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AD61A8CD565004E3125 /* DBManager.m */; };
+		AB281AE21A8CD565004E3125 /* DBHandlerMetroTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AD81A8CD565004E3125 /* DBHandlerMetroTrain.m */; };
+		AB281AE31A8CD565004E3125 /* DBHandlerConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281ADA1A8CD565004E3125 /* DBHandlerConvenience.m */; };
+		AB281AE41A8CD565004E3125 /* DBHandlerMetroBus.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281ADC1A8CD565004E3125 /* DBHandlerMetroBus.m */; };
+		AB281AE51A8CD565004E3125 /* DBHandlerLifeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281ADE1A8CD565004E3125 /* DBHandlerLifeInfo.m */; };
+		AB281AE61A8CD565004E3125 /* DBHandlerNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AE01A8CD565004E3125 /* DBHandlerNotice.m */; };
+		AB281AF31A8CD58A004E3125 /* metroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AE81A8CD58A004E3125 /* metroViewController.m */; };
+		AB281AF41A8CD58A004E3125 /* metroStationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AEA1A8CD58A004E3125 /* metroStationTableViewController.m */; };
+		AB281AF51A8CD58A004E3125 /* metroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AEC1A8CD58A004E3125 /* metroDetailViewController.m */; };
+		AB281AF61A8CD58A004E3125 /* metroBusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AEF1A8CD58A004E3125 /* metroBusCell.m */; };
+		AB281AF71A8CD58A004E3125 /* metroTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AF01A8CD58A004E3125 /* metroTimeCell.m */; };
+		AB281AF81A8CD58A004E3125 /* metroBusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB281AF21A8CD58A004E3125 /* metroBusViewController.m */; };
+		AB281AFA1A8CD5A9004E3125 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB281AF91A8CD5A9004E3125 /* libsqlite3.dylib */; };
+		AB283F2B1A8CD9B000880BB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB283F2A1A8CD9B000880BB0 /* Images.xcassets */; };
+		AB283F2D1A8CE0BC00880BB0 /* sejong_e.db in Resources */ = {isa = PBXBuildFile; fileRef = AB283F2C1A8CDF7D00880BB0 /* sejong_e.db */; };
 		AB6268661A833AE30041BB5F /* infoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6268651A833AE30041BB5F /* infoLocation.m */; };
 		AB692E111A871B03003D28B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB692E101A871B03003D28B7 /* QuartzCore.framework */; };
 		AB692E171A871C9C003D28B7 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB692E141A871C9C003D28B7 /* ECSlidingViewController.m */; };
@@ -39,6 +64,7 @@
 		AB92E1AE1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1AD1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m */; };
 		AB92E1B11A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1B01A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m */; };
 		AB92E1B41A8C79E500EDE6AD /* ExploreDetailListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1B31A8C79E500EDE6AD /* ExploreDetailListCell.m */; };
+		AB92E1B71A8CCB7A00EDE6AD /* LocalBISHome.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92E1B61A8CCB7A00EDE6AD /* LocalBISHome.m */; };
 		ABC1D7591A7B678A0043ADE6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC1D7581A7B678A0043ADE6 /* CoreTelephony.framework */; };
 		ABC1D75B1A7B67980043ADE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC1D75A1A7B67980043ADE6 /* CoreLocation.framework */; };
 		ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD53DE41A765357009CF8DC /* MyViewController.m */; };
@@ -49,9 +75,9 @@
 		ABD53DF21A76547A009CF8DC /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF01A76547A009CF8DC /* MyView.xib */; };
 		ABD53DF41A76548F009CF8DC /* PhoneContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF31A76548F009CF8DC /* PhoneContent.xib */; };
 		ABD53DF61A7654B0009CF8DC /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF51A7654B0009CF8DC /* content_iPhone.plist */; };
-		ABD53DF81A765687009CF8DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD53DF71A765687009CF8DC /* Images.xcassets */; };
 		ABD918261A8B48AE00B7DA6B /* LocalBISStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD918251A8B48AE00B7DA6B /* LocalBISStopViewController.m */; };
 		ABD918291A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD918281A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m */; };
+		ABDB624B1A99F16900AA619D /* LocaBISBrtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDB624A1A99F16900AA619D /* LocaBISBrtViewController.m */; };
 		ABE7BD861A79C9CD00FCC56F /* CommuteSejong.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD851A79C9CD00FCC56F /* CommuteSejong.m */; };
 		ABE7BD891A7A20B300FCC56F /* taxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD881A7A20B300FCC56F /* taxiViewController.m */; };
 		ABE7BD8C1A7A5DA000FCC56F /* officeCommuePdf.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE7BD8B1A7A5DA000FCC56F /* officeCommuePdf.m */; };
@@ -95,6 +121,52 @@
 		78A3F9F51A6757A0005CFD95 /* SejongCityGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SejongCityGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A3F9FA1A6757A0005CFD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A3F9FB1A6757A0005CFD95 /* SejongCityGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SejongCityGuideTests.m; sourceTree = "<group>"; };
+		AB281AB71A8CD49D004E3125 /* noticeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noticeTableViewController.h; sourceTree = "<group>"; };
+		AB281AB81A8CD49D004E3125 /* noticeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noticeTableViewController.m; sourceTree = "<group>"; };
+		AB281ABB1A8CD50B004E3125 /* noticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noticeCell.h; sourceTree = "<group>"; };
+		AB281ABC1A8CD50B004E3125 /* noticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noticeCell.m; sourceTree = "<group>"; };
+		AB281ABD1A8CD50B004E3125 /* noticeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = noticeCell.xib; sourceTree = "<group>"; };
+		AB281AC01A8CD532004E3125 /* lifeInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lifeInfoCell.h; sourceTree = "<group>"; };
+		AB281AC11A8CD532004E3125 /* lifeInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lifeInfoCell.m; sourceTree = "<group>"; };
+		AB281AC21A8CD532004E3125 /* lifeInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lifeInfoTableViewController.h; sourceTree = "<group>"; };
+		AB281AC31A8CD532004E3125 /* lifeInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lifeInfoTableViewController.m; sourceTree = "<group>"; };
+		AB281AC41A8CD532004E3125 /* lifeCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lifeCategoryController.h; sourceTree = "<group>"; };
+		AB281AC51A8CD532004E3125 /* lifeCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lifeCategoryController.m; sourceTree = "<group>"; };
+		AB281AC91A8CD54A004E3125 /* conveniController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conveniController.h; sourceTree = "<group>"; };
+		AB281ACA1A8CD54A004E3125 /* conveniController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = conveniController.m; sourceTree = "<group>"; };
+		AB281ACB1A8CD54A004E3125 /* conveniTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conveniTableViewController.h; sourceTree = "<group>"; };
+		AB281ACC1A8CD54A004E3125 /* conveniTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = conveniTableViewController.m; sourceTree = "<group>"; };
+		AB281ACD1A8CD54A004E3125 /* conveniTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conveniTableViewCell.h; sourceTree = "<group>"; };
+		AB281ACE1A8CD54A004E3125 /* conveniTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = conveniTableViewCell.m; sourceTree = "<group>"; };
+		AB281ACF1A8CD54A004E3125 /* conveniDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conveniDetailViewController.h; sourceTree = "<group>"; };
+		AB281AD01A8CD54A004E3125 /* conveniDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = conveniDetailViewController.m; sourceTree = "<group>"; };
+		AB281AD51A8CD565004E3125 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		AB281AD61A8CD565004E3125 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		AB281AD71A8CD565004E3125 /* DBHandlerMetroTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandlerMetroTrain.h; sourceTree = "<group>"; };
+		AB281AD81A8CD565004E3125 /* DBHandlerMetroTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandlerMetroTrain.m; sourceTree = "<group>"; };
+		AB281AD91A8CD565004E3125 /* DBHandlerConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandlerConvenience.h; sourceTree = "<group>"; };
+		AB281ADA1A8CD565004E3125 /* DBHandlerConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandlerConvenience.m; sourceTree = "<group>"; };
+		AB281ADB1A8CD565004E3125 /* DBHandlerMetroBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandlerMetroBus.h; sourceTree = "<group>"; };
+		AB281ADC1A8CD565004E3125 /* DBHandlerMetroBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandlerMetroBus.m; sourceTree = "<group>"; };
+		AB281ADD1A8CD565004E3125 /* DBHandlerLifeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandlerLifeInfo.h; sourceTree = "<group>"; };
+		AB281ADE1A8CD565004E3125 /* DBHandlerLifeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandlerLifeInfo.m; sourceTree = "<group>"; };
+		AB281ADF1A8CD565004E3125 /* DBHandlerNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandlerNotice.h; sourceTree = "<group>"; };
+		AB281AE01A8CD565004E3125 /* DBHandlerNotice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandlerNotice.m; sourceTree = "<group>"; };
+		AB281AE71A8CD58A004E3125 /* metroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metroViewController.h; sourceTree = "<group>"; };
+		AB281AE81A8CD58A004E3125 /* metroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metroViewController.m; sourceTree = "<group>"; };
+		AB281AE91A8CD58A004E3125 /* metroStationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metroStationTableViewController.h; sourceTree = "<group>"; };
+		AB281AEA1A8CD58A004E3125 /* metroStationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metroStationTableViewController.m; sourceTree = "<group>"; };
+		AB281AEB1A8CD58A004E3125 /* metroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metroDetailViewController.h; sourceTree = "<group>"; };
+		AB281AEC1A8CD58A004E3125 /* metroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metroDetailViewController.m; sourceTree = "<group>"; };
+		AB281AED1A8CD58A004E3125 /* metroTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metroTimeCell.h; sourceTree = "<group>"; };
+		AB281AEE1A8CD58A004E3125 /* metroBusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metroBusCell.h; sourceTree = "<group>"; };
+		AB281AEF1A8CD58A004E3125 /* metroBusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metroBusCell.m; sourceTree = "<group>"; };
+		AB281AF01A8CD58A004E3125 /* metroTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metroTimeCell.m; sourceTree = "<group>"; };
+		AB281AF11A8CD58A004E3125 /* metroBusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metroBusViewController.h; sourceTree = "<group>"; };
+		AB281AF21A8CD58A004E3125 /* metroBusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metroBusViewController.m; sourceTree = "<group>"; };
+		AB281AF91A8CD5A9004E3125 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AB283F2A1A8CD9B000880BB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB283F2C1A8CDF7D00880BB0 /* sejong_e.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sejong_e.db; sourceTree = "<group>"; };
 		AB6268641A833AE30041BB5F /* infoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoLocation.h; sourceTree = "<group>"; };
 		AB6268651A833AE30041BB5F /* infoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoLocation.m; sourceTree = "<group>"; };
 		AB692E101A871B03003D28B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -143,6 +215,8 @@
 		AB92E1B01A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISExploreDetailViewController.m; sourceTree = "<group>"; };
 		AB92E1B21A8C79E500EDE6AD /* ExploreDetailListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreDetailListCell.h; sourceTree = "<group>"; };
 		AB92E1B31A8C79E500EDE6AD /* ExploreDetailListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreDetailListCell.m; sourceTree = "<group>"; };
+		AB92E1B51A8CCB7A00EDE6AD /* LocalBISHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISHome.h; sourceTree = "<group>"; };
+		AB92E1B61A8CCB7A00EDE6AD /* LocalBISHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISHome.m; sourceTree = "<group>"; };
 		ABC1D7581A7B678A0043ADE6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		ABC1D75A1A7B67980043ADE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		ABD53DE31A765357009CF8DC /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
@@ -157,11 +231,12 @@
 		ABD53DF01A76547A009CF8DC /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 		ABD53DF31A76548F009CF8DC /* PhoneContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneContent.xib; sourceTree = "<group>"; };
 		ABD53DF51A7654B0009CF8DC /* content_iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = content_iPhone.plist; sourceTree = "<group>"; };
-		ABD53DF71A765687009CF8DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABD918241A8B48AE00B7DA6B /* LocalBISStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISStopViewController.h; sourceTree = "<group>"; };
 		ABD918251A8B48AE00B7DA6B /* LocalBISStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISStopViewController.m; sourceTree = "<group>"; };
 		ABD918271A8B48DB00B7DA6B /* LocalBISStopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBISStopDetailViewController.h; sourceTree = "<group>"; };
 		ABD918281A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBISStopDetailViewController.m; sourceTree = "<group>"; };
+		ABDB62491A99F16900AA619D /* LocaBISBrtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocaBISBrtViewController.h; sourceTree = "<group>"; };
+		ABDB624A1A99F16900AA619D /* LocaBISBrtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocaBISBrtViewController.m; sourceTree = "<group>"; };
 		ABE7BD841A79C9CD00FCC56F /* CommuteSejong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommuteSejong.h; sourceTree = "<group>"; };
 		ABE7BD851A79C9CD00FCC56F /* CommuteSejong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommuteSejong.m; sourceTree = "<group>"; };
 		ABE7BD871A7A20B300FCC56F /* taxiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taxiViewController.h; sourceTree = "<group>"; };
@@ -213,6 +288,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB281AFA1A8CD5A9004E3125 /* libsqlite3.dylib in Frameworks */,
 				AB692E271A87492F003D28B7 /* Foundation.framework in Frameworks */,
 				AB692E251A874927003D28B7 /* CoreGraphics.framework in Frameworks */,
 				AB692E231A87491C003D28B7 /* UIKit.framework in Frameworks */,
@@ -236,6 +312,8 @@
 		78A3F9D01A6757A0005CFD95 = {
 			isa = PBXGroup;
 			children = (
+				AB281AF91A8CD5A9004E3125 /* libsqlite3.dylib */,
+				AB283F2C1A8CDF7D00880BB0 /* sejong_e.db */,
 				AB692E261A87492F003D28B7 /* Foundation.framework */,
 				AB692E241A874927003D28B7 /* CoreGraphics.framework */,
 				AB692E221A87491C003D28B7 /* UIKit.framework */,
@@ -273,7 +351,7 @@
 				78A3F9E91A6757A0005CFD95 /* Main.storyboard */,
 				78A3F9E01A6757A0005CFD95 /* AppDelegate.h */,
 				78A3F9E11A6757A0005CFD95 /* AppDelegate.m */,
-				ABD53DF71A765687009CF8DC /* Images.xcassets */,
+				AB283F2A1A8CD9B000880BB0 /* Images.xcassets */,
 				78A3F9EE1A6757A0005CFD95 /* LaunchScreen.xib */,
 				78A3F9E31A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld */,
 				78A3F9DC1A6757A0005CFD95 /* Supporting Files */,
@@ -361,6 +439,22 @@
 				AB92E1AD1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m */,
 				AB92E1AF1A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.h */,
 				AB92E1B01A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m */,
+				AB92E1B51A8CCB7A00EDE6AD /* LocalBISHome.h */,
+				AB92E1B61A8CCB7A00EDE6AD /* LocalBISHome.m */,
+				AB281AE71A8CD58A004E3125 /* metroViewController.h */,
+				AB281AE81A8CD58A004E3125 /* metroViewController.m */,
+				AB281AE91A8CD58A004E3125 /* metroStationTableViewController.h */,
+				AB281AEA1A8CD58A004E3125 /* metroStationTableViewController.m */,
+				AB281AEB1A8CD58A004E3125 /* metroDetailViewController.h */,
+				AB281AEC1A8CD58A004E3125 /* metroDetailViewController.m */,
+				AB281AED1A8CD58A004E3125 /* metroTimeCell.h */,
+				AB281AEE1A8CD58A004E3125 /* metroBusCell.h */,
+				AB281AEF1A8CD58A004E3125 /* metroBusCell.m */,
+				AB281AF01A8CD58A004E3125 /* metroTimeCell.m */,
+				AB281AF11A8CD58A004E3125 /* metroBusViewController.h */,
+				AB281AF21A8CD58A004E3125 /* metroBusViewController.m */,
+				ABDB62491A99F16900AA619D /* LocaBISBrtViewController.h */,
+				ABDB624A1A99F16900AA619D /* LocaBISBrtViewController.m */,
 			);
 			name = TrafficInfo;
 			sourceTree = "<group>";
@@ -391,6 +485,14 @@
 				ABE7BD8B1A7A5DA000FCC56F /* officeCommuePdf.m */,
 				AB6268641A833AE30041BB5F /* infoLocation.h */,
 				AB6268651A833AE30041BB5F /* infoLocation.m */,
+				AB281AC91A8CD54A004E3125 /* conveniController.h */,
+				AB281ACA1A8CD54A004E3125 /* conveniController.m */,
+				AB281ACB1A8CD54A004E3125 /* conveniTableViewController.h */,
+				AB281ACC1A8CD54A004E3125 /* conveniTableViewController.m */,
+				AB281ACD1A8CD54A004E3125 /* conveniTableViewCell.h */,
+				AB281ACE1A8CD54A004E3125 /* conveniTableViewCell.m */,
+				AB281ACF1A8CD54A004E3125 /* conveniDetailViewController.h */,
+				AB281AD01A8CD54A004E3125 /* conveniDetailViewController.m */,
 			);
 			name = OfficeInfo;
 			sourceTree = "<group>";
@@ -402,6 +504,12 @@
 				AB7B1B821A8880C1009EA3F4 /* InitialLifeInfo.m */,
 				AB7B1B7B1A886C55009EA3F4 /* LifeInfoMainController.h */,
 				AB7B1B7C1A886C55009EA3F4 /* LifeInfoMainController.m */,
+				AB281AC01A8CD532004E3125 /* lifeInfoCell.h */,
+				AB281AC11A8CD532004E3125 /* lifeInfoCell.m */,
+				AB281AC21A8CD532004E3125 /* lifeInfoTableViewController.h */,
+				AB281AC31A8CD532004E3125 /* lifeInfoTableViewController.m */,
+				AB281AC41A8CD532004E3125 /* lifeCategoryController.h */,
+				AB281AC51A8CD532004E3125 /* lifeCategoryController.m */,
 			);
 			name = LifeInfo;
 			sourceTree = "<group>";
@@ -409,6 +517,9 @@
 		78D8DBD51A70979000D4EC25 /* NoticeInfo */ = {
 			isa = PBXGroup;
 			children = (
+				AB281ABA1A8CD4E9004E3125 /* noticeCell */,
+				AB281AB71A8CD49D004E3125 /* noticeTableViewController.h */,
+				AB281AB81A8CD49D004E3125 /* noticeTableViewController.m */,
 			);
 			name = NoticeInfo;
 			sourceTree = "<group>";
@@ -428,8 +539,30 @@
 				AB92E1A71A8C282400EDE6AD /* StopDetailListCell.m */,
 				AB92E1B21A8C79E500EDE6AD /* ExploreDetailListCell.h */,
 				AB92E1B31A8C79E500EDE6AD /* ExploreDetailListCell.m */,
+				AB281AD51A8CD565004E3125 /* DBManager.h */,
+				AB281AD61A8CD565004E3125 /* DBManager.m */,
+				AB281AD71A8CD565004E3125 /* DBHandlerMetroTrain.h */,
+				AB281AD81A8CD565004E3125 /* DBHandlerMetroTrain.m */,
+				AB281AD91A8CD565004E3125 /* DBHandlerConvenience.h */,
+				AB281ADA1A8CD565004E3125 /* DBHandlerConvenience.m */,
+				AB281ADB1A8CD565004E3125 /* DBHandlerMetroBus.h */,
+				AB281ADC1A8CD565004E3125 /* DBHandlerMetroBus.m */,
+				AB281ADD1A8CD565004E3125 /* DBHandlerLifeInfo.h */,
+				AB281ADE1A8CD565004E3125 /* DBHandlerLifeInfo.m */,
+				AB281ADF1A8CD565004E3125 /* DBHandlerNotice.h */,
+				AB281AE01A8CD565004E3125 /* DBHandlerNotice.m */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		AB281ABA1A8CD4E9004E3125 /* noticeCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB281ABB1A8CD50B004E3125 /* noticeCell.h */,
+				AB281ABC1A8CD50B004E3125 /* noticeCell.m */,
+				AB281ABD1A8CD50B004E3125 /* noticeCell.xib */,
+			);
+			name = noticeCell;
 			sourceTree = "<group>";
 		};
 		AB692E121A871BDA003D28B7 /* vendor */ = {
@@ -582,14 +715,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE7BE121A7B51D500FCC56F /* HeadingAngleSmall.png in Resources */,
+				AB283F2B1A8CD9B000880BB0 /* Images.xcassets in Resources */,
+				AB283F2D1A8CE0BC00880BB0 /* sejong_e.db in Resources */,
 				ABD53DF61A7654B0009CF8DC /* content_iPhone.plist in Resources */,
 				ABE7BE1C1A7B51D500FCC56F /* TrackingDotHalo.png in Resources */,
-				ABD53DF81A765687009CF8DC /* Images.xcassets in Resources */,
 				ABD53DF41A76548F009CF8DC /* PhoneContent.xib in Resources */,
 				ABE7BE141A7B51D500FCC56F /* icon_clustering.png in Resources */,
 				ABE7BE181A7B51D500FCC56F /* poweredby.png in Resources */,
 				ABD53DF11A76547A009CF8DC /* MainWindow.xib in Resources */,
 				ABE7BE1D1A7B51D500FCC56F /* TrackingDotHalo@2x.png in Resources */,
+				AB281ABF1A8CD50B004E3125 /* noticeCell.xib in Resources */,
 				78A3F9EB1A6757A0005CFD95 /* Main.storyboard in Resources */,
 				ABE7BE171A7B51D500FCC56F /* mapbg_tlogo@2x.png in Resources */,
 				ABE7BE1B1A7B51D500FCC56F /* TrackingDot@2x.png in Resources */,
@@ -620,36 +755,59 @@
 				AB7B1B861A8880D7009EA3F4 /* InitialOfficeInfo.m in Sources */,
 				ABE7BD8C1A7A5DA000FCC56F /* officeCommuePdf.m in Sources */,
 				AB692E1B1A871EF1003D28B7 /* MenuViewController.m in Sources */,
+				AB281AD41A8CD54A004E3125 /* conveniDetailViewController.m in Sources */,
+				AB281AF71A8CD58A004E3125 /* metroTimeCell.m in Sources */,
+				AB281AF31A8CD58A004E3125 /* metroViewController.m in Sources */,
+				AB281AF81A8CD58A004E3125 /* metroBusViewController.m in Sources */,
 				ABD918291A8B48DB00B7DA6B /* LocalBISStopDetailViewController.m in Sources */,
+				AB281AF61A8CD58A004E3125 /* metroBusCell.m in Sources */,
+				ABDB624B1A99F16900AA619D /* LocaBISBrtViewController.m in Sources */,
 				ABE7BD861A79C9CD00FCC56F /* CommuteSejong.m in Sources */,
 				78A3F9E51A6757A0005CFD95 /* SejongCityGuide.xcdatamodeld in Sources */,
 				AB92E1B11A8C64ED00EDE6AD /* LocalBISExploreDetailViewController.m in Sources */,
 				AB692E211A874575003D28B7 /* InitialTraffic.m in Sources */,
 				ABF5B1F81A76947100935FD1 /* PDFView.m in Sources */,
+				AB281AE31A8CD565004E3125 /* DBHandlerConvenience.m in Sources */,
 				AB7B1B971A89E935009EA3F4 /* RouteStopListCell.m in Sources */,
 				AB7B1B7D1A886C55009EA3F4 /* LifeInfoMainController.m in Sources */,
 				ABD53DEE1A7653F2009CF8DC /* ContentController.m in Sources */,
+				AB281AE51A8CD565004E3125 /* DBHandlerLifeInfo.m in Sources */,
+				AB281AD11A8CD54A004E3125 /* conveniController.m in Sources */,
 				AB92E1A51A8C280E00EDE6AD /* StopListCell.m in Sources */,
+				AB281AC71A8CD532004E3125 /* lifeInfoTableViewController.m in Sources */,
 				AB7B1B931A89C2AC009EA3F4 /* RouteListCell.m in Sources */,
 				AB92E1B41A8C79E500EDE6AD /* ExploreDetailListCell.m in Sources */,
 				78A3F9E21A6757A0005CFD95 /* AppDelegate.m in Sources */,
+				AB281AC81A8CD532004E3125 /* lifeCategoryController.m in Sources */,
 				ABE7BE211A7B57A200FCC56F /* TmapInfoLocation.m in Sources */,
+				AB281AE61A8CD565004E3125 /* DBHandlerNotice.m in Sources */,
 				AB692E1E1A87444D003D28B7 /* ToDoViewController.m in Sources */,
 				AB92E1AE1A8C64D000EDE6AD /* LocalBISExploreArriveViewController.m in Sources */,
 				ABD53DEA1A765357009CF8DC /* PhoneContentController.m in Sources */,
+				AB281AB91A8CD49D004E3125 /* noticeTableViewController.m in Sources */,
+				AB281AE21A8CD565004E3125 /* DBHandlerMetroTrain.m in Sources */,
 				ABF5B1F51A76628D00935FD1 /* TrafficMainController.m in Sources */,
+				AB281AF51A8CD58A004E3125 /* metroDetailViewController.m in Sources */,
 				ABE7BD891A7A20B300FCC56F /* taxiViewController.m in Sources */,
+				AB281AC61A8CD532004E3125 /* lifeInfoCell.m in Sources */,
 				AB6268661A833AE30041BB5F /* infoLocation.m in Sources */,
 				AB7B1B801A888083009EA3F4 /* InitialCommute.m in Sources */,
+				AB281ABE1A8CD50B004E3125 /* noticeCell.m in Sources */,
 				AB7B1B8F1A88E141009EA3F4 /* LocalBISRouteDetailViewController.m in Sources */,
 				AB692E171A871C9C003D28B7 /* ECSlidingViewController.m in Sources */,
 				AB92E1A81A8C282400EDE6AD /* StopDetailListCell.m in Sources */,
 				ABD918261A8B48AE00B7DA6B /* LocalBISStopViewController.m in Sources */,
 				ABD53DE91A765357009CF8DC /* MyViewController.m in Sources */,
+				AB281AD21A8CD54A004E3125 /* conveniTableViewController.m in Sources */,
 				AB92E1AB1A8C64B500EDE6AD /* LocalBISExploreStartViewController.m in Sources */,
 				AB7B1B891A88D0C4009EA3F4 /* LocalBISRouteViewController.m in Sources */,
+				AB281AE11A8CD565004E3125 /* DBManager.m in Sources */,
 				AB7B1B831A8880C1009EA3F4 /* InitialLifeInfo.m in Sources */,
 				ABD53DEB1A765357009CF8DC /* RootViewController.m in Sources */,
+				AB281AD31A8CD54A004E3125 /* conveniTableViewCell.m in Sources */,
+				AB281AF41A8CD58A004E3125 /* metroStationTableViewController.m in Sources */,
+				AB281AE41A8CD565004E3125 /* DBHandlerMetroBus.m in Sources */,
+				AB92E1B71A8CCB7A00EDE6AD /* LocalBISHome.m in Sources */,
 				AB7B1B771A886C29009EA3F4 /* CommuteMainController.m in Sources */,
 				AB7B1B7A1A886C41009EA3F4 /* OfficeInfoMainController.m in Sources */,
 				AB692E181A871C9C003D28B7 /* UIImage+ImageWithUIView.m in Sources */,
@@ -774,7 +932,6 @@
 		78A3FA001A6757A0005CFD95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SejongCityGuide/Info.plist;
@@ -792,7 +949,6 @@
 		78A3FA011A6757A0005CFD95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SejongCityGuide/Info.plist;

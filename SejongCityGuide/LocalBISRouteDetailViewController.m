@@ -39,7 +39,7 @@
     STOP_ID_BUS = [[NSMutableArray alloc] init];
     NSURL *url = [NSURL URLWithString:[@"http://14.50.216.131:8081/bbs/bbsrss.do?searchFlag=STOP_LIST&search="stringByAppendingString:self.param]];
     
-       NSLog(@"tqwerqwer %@",url);
+    
     parser = [[NSXMLParser alloc] initWithContentsOfURL:url];
     [parser setDelegate:self];
     [parser setShouldResolveExternalEntities:NO];
@@ -64,25 +64,12 @@
     
     RouteStopListCell *cell = (RouteStopListCell *)[tableView dequeueReusableCellWithIdentifier:@"RouteStopListCell"];
     
-    
-    
+ 
     cell.stopName.text =  [[STOP_NAME objectAtIndex:indexPath.row] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
      NSString *stopID =[STOP_ID objectAtIndex:indexPath.row];
     cell.stopIMG.image =[UIImage imageNamed:stopID];
   
- //   if([stopID isEqualToString:@"true"]){
-   //             cell.stopIMG.image =[UIImage imageNamed:@"ico_bis_bus"];
-    //    }
-    
 
-        
- //   NSLog(@"index path : %i",indexPath.row);
-//    for (NSInteger i = 0; i<STOP_ID_BUS.count; i++) {
-//    NSString *stopIDBUS =[[STOP_ID_BUS objectAtIndex:i] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-//        if([stopID isEqualToString:stopIDBUS]){
-//            cell.stopIMG.image =[UIImage imageNamed:@"ico_bis_bus"];
-//    }
-//    }
 
     
     
@@ -135,7 +122,9 @@
 
 - (void)parserDidEndDocument:(NSXMLParser *)parser {
     
+
     [self.tableView reloadData];
+    
     NSMutableArray *copy = [STOP_ID_BUS copy];
     NSInteger index = [copy count] - 1;
     for (id object in [copy reverseObjectEnumerator]) {
@@ -160,7 +149,6 @@
             [STOP_ID replaceObjectAtIndex:k withObject:@"ico_bis_line"];
         }
     }
-    
 }
 
 

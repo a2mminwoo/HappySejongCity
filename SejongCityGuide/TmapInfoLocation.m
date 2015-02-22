@@ -45,6 +45,11 @@ void Alert(NSString* message) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+      if (self.isLifeInfoList == YES) {
+              self.contentTitle.title = @"경로검색";
+      }else{
+          self.contentTitle.title = @"입주기관 경로검색";
+      }
     if ([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)])
     {
         CGFloat screenMaxLength = MAX([[UIScreen mainScreen] nativeBounds].size.width, [[UIScreen mainScreen] nativeBounds].size.height);
@@ -74,8 +79,11 @@ void Alert(NSString* message) {
     [_mapView setBizAppID:TMAP_BIZAPPID];
     
     [self.viewTmap addSubview:_mapView];
-    
-    [self rp:(self.locationFlag +1)];
+    if (self.isLifeInfoList == YES) {
+             [self rpLifeList];
+    }else{
+       [self rp:(self.locationFlag +1)];
+    }
 }
 
 
@@ -244,6 +252,60 @@ void Alert(NSString* message) {
    [_mapView setCenterCoordinate:centerCoord];
 }
 
+- (void)rpLifeList
+{
+    TMapPathData* path = [[TMapPathData alloc] init];
+    locationManager = [[CLLocationManager alloc] init];
+    locationManager.distanceFilter = kCLDistanceFilterNone;
+    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    locationManager.delegate = self;
+    [locationManager startUpdatingLocation];
+  
+    if([locationManager respondsToSelector:@selector(requestAlwaysAuthorization)])
+    {
+        //   [locationManager requestWhenInUseAuthorization];   //앱을 사용하는 동안
+        [locationManager requestAlwaysAuthorization];      //항상
+        
+        [self GPS_ON];
+    }
+    
+    
+   
+    TMapPoint* startPoint = [[TMapPoint alloc] initWithLon:locationManager.location.coordinate.longitude Lat:locationManager.location.coordinate.latitude] ;
+    
+    TMapPoint* endPoint = [[TMapPoint alloc] initWithLon:self.lon Lat:self.lat] ;
+
+    NSLog(@"123412341234123412341234  %f",self.lon);      // latitude
+    NSLog(@"221234123412341234123422  %f",self.lat);
+    TMapPolyLine *polyLine = [path findPathDataFrom:startPoint to:endPoint];
+    
+    if (polyLine == nil) {
+        return;
+    }
+    
+    if ([[polyLine getLinePoint] count] == 0)
+        return;
+    //*
+    // 출발, 도착 아이콘 설정
+    TMapPoint* start = [[polyLine getLinePoint] objectAtIndex:0];
+    TMapPoint* end = [[polyLine getLinePoint] lastObject];
+    TMapMarkerItem* startMarkerItem = [[TMapMarkerItem alloc]initWithTMapPoint:start];
+    [startMarkerItem setIcon:[UIImage imageNamed:@"start.png"] anchorPoint:CGPointMake(0.4, 1.0)];
+    TMapMarkerItem* endMarkerItem = [[TMapMarkerItem alloc]initWithTMapPoint:end];
+    [endMarkerItem setIcon:[UIImage imageNamed:@"end.png"]anchorPoint:CGPointMake(0.5, 1.0)];
+    [_mapView setTMapPathIconStart:startMarkerItem End:endMarkerItem];
+    //*/
+    // 라인
+    if(polyLine)
+    {
+        [_mapView addTMapPath:polyLine];
+    }
+    
+    CLLocationCoordinate2D centerCoord = {locationManager.location.coordinate.latitude, locationManager.location.coordinate.longitude};
+    //    [_mapView zoomToLatSpan: locationManager.location.coordinate.latitude lonSpan: locationManager.location.coordinate.longitude];
+    [_mapView setCenterCoordinate:centerCoord];
+}
+
 
 
 static TMapGpsManager *__gps = nil;
@@ -269,5 +331,8 @@ static TMapGpsManager *__gps = nil;
 
 
 
-
+-(IBAction)cancelPress:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

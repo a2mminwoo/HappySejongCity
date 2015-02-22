@@ -31,6 +31,13 @@
     [super viewDidLoad];
 
     [self.searchBar setDelegate:self];
+    
+    feeds = [[NSMutableArray alloc] init];
+    NSURL *url = [NSURL URLWithString:@"http://14.50.216.131:8081/bbs/bbsrss.do?searchFlag=ROUTE&search="];
+    parser = [[NSXMLParser alloc] initWithContentsOfURL:url];
+    [parser setDelegate:self];
+    [parser setShouldResolveExternalEntities:NO];
+    [parser parse];
 }
 
 
@@ -47,12 +54,6 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
    
     RouteListCell *cell = (RouteListCell *)[tableView dequeueReusableCellWithIdentifier:@"RouteListCell"];
-    if (cell == nil)
-    {
-        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"RouteListCell" owner:self options:nil];
-        cell = [nib objectAtIndex:0];
-    }
-    
     
     NSString *ROUTE_NAME =[[[feeds objectAtIndex:indexPath.row] objectForKey: @"ROUTE_NAME"] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     if([ROUTE_NAME isEqualToString:@"990"]){
@@ -177,4 +178,12 @@
     [parser parse];
 }
 
+- (IBAction)backAction:(id)sender {
+    NSString * storyboardName = @"Main";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+    UIViewController *viewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"BISHome"];
+    
+    [self presentViewController:viewController animated:YES completion:nil];
+
+}
 @end

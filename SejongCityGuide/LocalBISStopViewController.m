@@ -26,6 +26,7 @@
     [super viewDidLoad];
     
     [self.searchBar setDelegate:self];
+    
 }
 
 
@@ -120,4 +121,13 @@
     [parser parse];
 }
 
+- (IBAction)BackAction:(id)sender {
+    
+    NSString * storyboardName = @"Main";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+    UIViewController *viewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"BISHome"];
+    
+    [self presentViewController:viewController animated:YES completion:nil];
+    
+}
 @end
